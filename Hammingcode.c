@@ -57,7 +57,7 @@ int main()
       printf("%d",datarec[i]);
       
       printf("  \n error corrected data at receiver end:");
-      datarec[c-1]=(datarec[c-1]=='0')?'1':'0';
+      datarec[c-1]=(datarec[c-1]==0)?1:0;
       for(i=0;i<7;i++)
       printf("%d",datarec[i]);
       
